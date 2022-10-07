@@ -1,0 +1,34 @@
+.board{
+    display: grid;
+    place-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+.pieceChess{
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80px;
+}
+
+.pieceChess:hover{
+    cursor: grab;
+}
+
+.pieceChess:active{
+    cursor: grabbing;
+}
+
+.board img{
+    width: 80px;
+}
+
+.black-board{
+    background-color: #779556;
+}
+
+.white-board{
+    background-color: #ebecd0;
+}
